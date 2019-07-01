@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    position: relative;
+    /* fallback */
+    background-color: #c9cbcd;
+    background-repeat: repeat-x;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c9cbcd), to(white));
+
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, white, white, #c9cbcd);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, white, white, #c9cbcd);
+
+    /* IE 10 */
+    background: -ms-linear-gradient(top, white, white, #c9cbcd);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, white, white, #c9cbcd);
+}
+
+#sliderButton {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -7px;
+    margin-top: -7px;
+}
+
+#content1 {
+    position: relative;
+    background: -webkit-linear-gradient(white, "#E3E3E3");
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, "#E3E3E3");
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, "#E3E3E3");
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, "#E3E3E3");
+    /* Standard syntax */
+}
+
+#canvas {
+    margin-left: auto;
+}
+
+#infoValues {
+    font-size: 30px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+    /*background-color: white;*/
+    display: inline-block;
+    height: 7px;
+    width: 11px;
+    margin-right: 10px;
+    /*margin-bottom: 10px;*/
+    vertical-align: middle;
+}
+
+#infoLabels {
+    display: inline-block;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+#circleBottomLabel {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+    width: 300px;
+    height: 10px;
+    /*margin-left: auto;*/
+    position: relative;
+
+}
+
+#circle {
+    margin-left: auto;
+}
